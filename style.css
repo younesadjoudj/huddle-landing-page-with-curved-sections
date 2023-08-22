@@ -338,7 +338,7 @@ footer::before {
     .stats {
         flex-direction: row;
         align-items: center;
-        justify-content: center;
+        justify-content: space-around;
     } 
 
     br {
@@ -406,5 +406,9 @@ footer::before {
 
     footer {
         background-image: url("images/bg-footer-top-desktop.svg");
+    }
+
+    header, footer, section {
+        padding-inline: 6rem;
     }
 }    
