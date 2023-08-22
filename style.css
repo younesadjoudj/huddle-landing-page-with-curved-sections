@@ -409,6 +409,6 @@ footer::before {
     }
 
     header, footer, section {
-        padding-inline: 6rem;
+        padding-inline: 6.5rem;
     }
 }    
